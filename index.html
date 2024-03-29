@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./logoSchool.png" alt="" class="logoSchool">
+        <nav>
+            <ul>
+                <li><a href="">Nosso Whatsapp</a></li>
+                <li><a href="">Nosso Instagram</a></li>
+                <li><a href="">Nosso email</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section>
+        <div class="h2">
+            <h2>
+                Faça seu Lead agora conosco para aulas experimentais!!
+            </h2>
+        </div>
+        <div class="double">
+            <div class="article">
+                <article>
+                    <span class="s1">
+                        A ESCOLA DE MUSICA
+                    </span>
+                    <span class="s2">
+                        MAIS INOVADORA
+                    </span>
+                    <span class="s3">
+                        DO MUNDO
+                    </span>
+                    
+                </article>
+            </div>
+            <div class="formulario">
+                <form id="formulario" onsubmit="return validarFormulario()">
+                    <label for="nome">Nome do Aluno:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="idade">Idade do Aluno:</label>
+                    <input type="number" id="idade" name="idade" min="1" required>
+                    
+                    <label for="instrumento">Instrumento que Vai Aprender:</label>
+                    <select id="instrumento" name="instrumento" required>
+                        <option value="">Selecione...</option>
+                        <option value="Violão">Violão</option>
+                        <option value="Piano">Piano</option>
+                        <option value="Guitarra">Guitarra</option>
+                        <option value="Violino">Violino</option>
+                    </select>
+                    
+                    <label for="email_responsavel">Email do Responsável (em caso de ser menor de idade):</label>
+                    <input type="email" id="email_responsavel" name="email_responsavel">
+                    
+                    <input type="submit" value="Enviar">
+            </div>
+        
+
+        </div>
+   </section>
+</body>
+</html>
